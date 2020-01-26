@@ -1,0 +1,21 @@
+body {
+	background-image:url("https://images.pexels.com/photos/1831234/pexels-photo-1831234.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500") ;
+	background-repeat: no-repeat;
+  	background-size: cover;
+	background-position: center;
+	
+	
+}
+html {
+	height: 100%;
+}
+
+
+.form{
+	position: relative;
+	top: 90px;
+}
+#form1{
+	position: relative;
+	top: 30px;
+}

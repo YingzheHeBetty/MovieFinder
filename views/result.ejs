@@ -7,24 +7,30 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+	<link rel="stylesheet" href = "result.css">
 
     <title>Movie Search App</title>
   </head>
   <body>
 	  	<div class="container">
-			<h1>
+			<h1 class="text-center" id = "form1">
 				Movie name: <%=data["Title"] %>
 			</h1>
-
-			<img src= <%=data["Poster"] %> >
-
-			<h2>
+			
+			<div class="text-center form">
+				<img src= <%=data["Poster"] %> class="img-fluid rounded img-thumbnail" alt="Responsive image" >
+			</div>
+			
+			<div class = "text-center form">
+				<h2 >
 				<%=data["Plot"] %>
-			</h2>
+				</h2>
 
 
-			<a href="/" class="badge badge-info">Search another movie!</a>
+				<a href="/" class="btn btn-lg btn-info ">Search another movie!</a>
 
+			</div>
+			
 
 		</div>
 		
